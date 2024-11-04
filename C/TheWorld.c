@@ -7,7 +7,7 @@ int main()
 // everything between those "{}" will be executed
 {
 
-    printf("Hello World!\n"); /*<== DON'T forget to put ";" after every line, otherwise it will crash the program*/
+    printf("Hello World!\n");/*<== DON'T forget to put ";" after every line, otherwise it will crash the program*/
 
     /*
     "printf" is one of the commands that our lib <stdio.h> gives to us;
