@@ -82,16 +82,16 @@ int main()
     */
     bool YorN = false;
 
-    /*
-        printf("Char\n%d is \'%c\' but from another universe!\n\n", Diego, Diego);
+    
+    printf("Char\n%d is \'%c\' but from another universe!\n\n", Diego, Diego);
 
-        printf("Unsigned Char\n%d is a number that you can get with a unsigned char\n\n", smollest);
+    printf("Unsigned Char\n%d is a number that you can get with a unsigned char\n\n", smollest);
 
-        printf("String\nTheres a %s behind you...\n\n", animal);
+    printf("String\nTheres a %s behind you...\n\n", animal);
 
-        printf("Integers\nshort => %d\nlong or \'normal\' => %d\nlong long => %lld\n\n", smoll, normar, snek);
+    printf("Integers\nshort => %d\nlong or \'normal\' => %d\nlong long => %lld\n\n", smoll, normar, snek);
 
-        printf("Unsigned Integers\nshort => %d\nlong or \'normal\' => %u\nlong long => %llu\n\n", A, B, C);*/
+    printf("Unsigned Integers\nshort => %d\nlong or \'normal\' => %u\nlong long => %llu\n\n", A, B, C);*/
 
     printf("Double & Float\nVirgin Beta %.7f vs \nChad Alpha %.15lf\n\n", beta, alpha);
 
