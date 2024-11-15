@@ -69,6 +69,11 @@ int main()
     */
     double alpha = 1.618033988749894;
 
+    /*
+    For both 'float' and 'double' you may want to specify the amount of digits, by putting 0.n (n is the number) that you want to print.
+    EX: printf("%0.9lf", A); or just %.nlf, idk it works the same.
+    */
+
     // boolean
 
     /*
@@ -77,17 +82,18 @@ int main()
     */
     bool YorN = false;
 
-    printf("Char\n%d is \'%c\' but from another universe!\n\n", Diego, Diego);
+    /*
+        printf("Char\n%d is \'%c\' but from another universe!\n\n", Diego, Diego);
 
-    printf("Unsigned Char\n%d is a number that you can get with a unsigned char\n\n", smollest);
+        printf("Unsigned Char\n%d is a number that you can get with a unsigned char\n\n", smollest);
 
-    printf("String\nTheres a %s behind you...\n\n", animal);
+        printf("String\nTheres a %s behind you...\n\n", animal);
 
-    printf("Integers\nshort => %d\nlong or \'normal\' => %d\nlong long => %lld\n\n", smoll, normar, snek);
+        printf("Integers\nshort => %d\nlong or \'normal\' => %d\nlong long => %lld\n\n", smoll, normar, snek);
 
-    printf("Unsigned Integers\nshort => %d\nlong or \'normal\' => %u\nlong long => %llu\n\n", A, B, C);
+        printf("Unsigned Integers\nshort => %d\nlong or \'normal\' => %u\nlong long => %llu\n\n", A, B, C);*/
 
-    printf("Double & Float\nVirgin Beta %f vs \nChad Alpha %lf\n\n", beta, alpha);
+    printf("Double & Float\nVirgin Beta %.7f vs \nChad Alpha %.15lf\n\n", beta, alpha);
 
     /*I dont know how to display a boolean as a string... srry🫠*/
     printf("Boolean\nAre you a professional programmer? %d", YorN);
