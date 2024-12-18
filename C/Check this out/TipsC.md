@@ -32,23 +32,60 @@ Well, i will say the truth, you wont truly learn C or any other language by pure
 
 Here some common issues that you might do during your learning, and don't fall again for those traps, alright?
 
+---
+
 1. Truncation
 
-2. Integer overflow
+Its a issue related to the property of intergers, that since those dont allow broken numbers, any operation that gives a broken number, like this one:
 
-3. Bad naming
+```C
+int X = 1;
+int Y = 2;
+float Z = X / 2;
+/* SPOILER: Z is going to be zero, cause anything thats decimal, will be cut away*/
+```
 
-   When naming variables is important to keep in mind that the name needs to be readable by other person, and that other fella undestand what the variable is about, even tough in lessons, you see people naming them just letters, try to creat "smarter names".
+to counter this bug, we can do one of the following:
+
+1. Define X and Y as float since the start, but this might be problematic in cases if you only want full number as a input.
+2. Define X and Y for a moment, like the following:
+
+```C
+float Z = (float) X / (float) Y;
+```
+
+---
+
+3. Integer overflow
+
+---
+
+4. Bad naming
+
+When naming variables is important to keep in mind that the name needs to be readable by other person, and that other fella undestand what the variable is about, even tough in lessons, you see people naming them just letters, try to creat "smarter names".
+
+```C
+/*Try to not use single characters for naming variables*/
+int a = 12; //What is this variable mean't to be? age? a random number?
+
+int age = 33; // Now makes sense!, its more readable for someone outside.
+```
+
+---
 
 4. Forgetting the damn ";"
 
-   I dont know why, but you gotta add ";" after every single damn line, otherwise the computer will think that everything is on a single line and crash;
+I dont know why, but you gotta add ";" after every single damn line, otherwise the computer will think that everything is on a single line and crash;
+
+---
 
 5. Not saving on Git or Github
 
-   Git and Github are two similar, they both serve to save your code, and doing backups in case you slip and make it worse, if you want to do backups its much better to install Git, but if you want to save or share you code, use Github
+Git and Github are two similar, they both serve to save your code, and doing backups in case you slip and make it worse, if you want to do backups its much better to install Git, but if you want to save or share you code, use Github
 
-   - Git download:
-   - Github:
+- Git download:
+- Github:
+
+---
 
 6.

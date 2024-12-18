@@ -22,6 +22,6 @@ int main()
     /*"scanf" is a method thats simpler than "fgets",
      but it has one of its main weakness of not being to read beyond the first whitespace*/
     scanf("%d", &age);
-    printf("Hello %s, i am glad that you survived for %d years!", name, age);
+    printf("Hello %s, i am glad that you survived for %d years!", name[5], age);
     return 0;
 }
